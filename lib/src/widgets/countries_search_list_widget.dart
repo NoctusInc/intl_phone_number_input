@@ -71,7 +71,7 @@ class _CountrySearchListWidgetState extends State<CountrySearchListWidget> {
             style: TextStyle(
                 fontFamily: 'poppins-light',
                 fontSize: 16,
-                color: NoctusColors.primaryTextColor),
+                color: Color.fromRGBO(255, 255, 255, 1.0)),
             onChanged: (value) {
               final String value = _searchController.text.trim();
               return setState(
