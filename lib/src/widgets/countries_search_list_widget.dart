@@ -60,7 +60,7 @@ class _CountrySearchListWidgetState extends State<CountrySearchListWidget> {
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: <Widget>[
-        const SizedBox(height: 10),
+        const SizedBox(height: 20),
         Container(
           width: 50,
           height: 3,
