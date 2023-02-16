@@ -430,9 +430,7 @@ class _InputWidgetView
                       offset: Offset(0, 3),
                     ),
                   ],
-                  borderRadius: BorderRadius.circular(
-                    NoctusTheme.fieldsBorderRadius,
-                  ),
+                  borderRadius: BorderRadius.circular(6),
                 ),
               ),
               TextFormField(
