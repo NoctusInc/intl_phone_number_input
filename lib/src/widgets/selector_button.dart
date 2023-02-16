@@ -153,7 +153,7 @@ class SelectorButton extends StatelessWidget {
       backgroundColor: Colors.transparent,
       shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.only(
-              topLeft: Radius.circular(12), topRight: Radius.circular(12))),
+              topLeft: Radius.circular(14), topRight: Radius.circular(14))),
       builder: (BuildContext context) {
         return Stack(children: [
           GestureDetector(
@@ -171,8 +171,8 @@ class SelectorButton extends StatelessWidget {
                       color: Colors.black,
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.only(
-                          topLeft: Radius.circular(12),
-                          topRight: Radius.circular(12),
+                          topLeft: Radius.circular(14),
+                          topRight: Radius.circular(14),
                         ),
                       ),
                     ),

@@ -67,7 +67,7 @@ class _CountrySearchListWidgetState extends State<CountrySearchListWidget> {
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10), color: Colors.white),
         ),
-        const SizedBox(height: 20),
+        const SizedBox(height: 10),
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 16),
           child: TextFormField(
