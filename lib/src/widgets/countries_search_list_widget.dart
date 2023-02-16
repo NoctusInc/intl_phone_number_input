@@ -157,11 +157,13 @@ class DirectionalCountryListTile extends StatelessWidget {
       leading: (showFlags ? _Flag(country: country, useEmoji: useEmoji) : null),
       title: Align(
         alignment: AlignmentDirectional.centerStart,
-        child: Text(
-          '${Utils.getCountryName(country, locale)}',
-          textDirection: Directionality.of(context),
-          textAlign: TextAlign.start,
-        ),
+        child: Text('${Utils.getCountryName(country, locale)}',
+            textDirection: Directionality.of(context),
+            textAlign: TextAlign.start,
+            style: TextStyle(
+                fontFamily: 'poppins-light',
+                fontSize: 16,
+                color: Color.fromRGBO(255, 255, 255, 1.0))),
       ),
       subtitle: Align(
         alignment: AlignmentDirectional.centerStart,
