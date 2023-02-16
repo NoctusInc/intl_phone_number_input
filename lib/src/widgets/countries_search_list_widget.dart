@@ -171,7 +171,7 @@ class DirectionalCountryListTile extends StatelessWidget {
             textDirection: TextDirection.ltr,
             textAlign: TextAlign.start,
             style: TextStyle(
-                fontFamily: 'poppins-light',
+                fontFamily: 'poppins-bold',
                 fontSize: 16,
                 color: Color.fromRGBO(255, 255, 255, 1.0))),
       ),
