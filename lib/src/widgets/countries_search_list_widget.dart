@@ -67,6 +67,11 @@ class _CountrySearchListWidgetState extends State<CountrySearchListWidget> {
             decoration: getSearchBoxDecoration(),
             controller: _searchController,
             autofocus: widget.autoFocus,
+            cursorColor: Color.fromRGBO(252, 163, 17, 1),
+            style: TextStyle(
+                fontFamily: 'poppins-light',
+                fontSize: 16,
+                color: NoctusColors.primaryTextColor),
             onChanged: (value) {
               final String value = _searchController.text.trim();
               return setState(

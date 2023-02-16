@@ -26,3 +26,16 @@ dev_dependencies:
 flutter:
   assets:
     - assets/flags/
+
+  fonts:
+    - family: poppins-bold
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+
+    - family: poppins-light
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+
+    - family: poppins-regular
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
